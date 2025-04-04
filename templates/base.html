@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorfy</title>
+    <link id="favicon" rel="icon" href="{% static 'media/logo.png'%}" type="image/x-icon">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    {% block 'head' %}{% endblock 'head' %}
+</head>
+<body>
+    {% block 'body' %}{% endblock 'body' %}
+</body>
+</html>
